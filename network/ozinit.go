@@ -13,7 +13,7 @@ import (
 	"github.com/milosgajdos83/tenus"
 )
 
-// Setup the networking inside the child
+// NetSetup: Setup the networking inside the child
 // Namely setup the loopback interface
 // and the veth interface if requested
 func NetSetup() error {

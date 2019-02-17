@@ -98,7 +98,7 @@ func init() {
 	}
 }
 
-// Print status of the network interfaces
+// NetPrint: Print status of the network interfaces
 func NetPrint(log *logging.Logger) {
 	strLine := ""
 	ifs, _ := net.Interfaces()
